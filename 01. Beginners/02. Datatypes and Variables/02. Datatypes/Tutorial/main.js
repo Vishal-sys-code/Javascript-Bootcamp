@@ -1,4 +1,4 @@
-// --------------------------------------------
+// -----------------------------------------------------------------------------------------------------------------
 /* NUMBERS */
 
 // Javascript has one number type: Positive, Negative, Whole, Decimal
@@ -18,7 +18,7 @@ console.log(num--);
 console.log(++num);
 console.log(--num);
 
-// --------------------------------------------
+// -----------------------------------------------------------------------------------------------------------------
 /* BOOLEANS */
 let isCodingFun = true;
 let isDebuggingNeedsAlways = false;
@@ -26,7 +26,7 @@ let isDebuggingNeedsAlways = false;
 console.log(isCodingFun);
 console.log(isDebuggingNeedsAlways);
 
-// --------------------------------------------
+// -----------------------------------------------------------------------------------------------------------------
 /* RELATIONAL OPERATORS */
 
 /* 
@@ -54,7 +54,7 @@ console.log(10 !== 10);
 console.log(10 == 10);
 console.log(10 != 10);
 
-// --------------------------------------------
+// -----------------------------------------------------------------------------------------------------------------
 /* STRINGS */
 
 let firstName = "Vishal";
@@ -96,7 +96,7 @@ console.log("Lowercase lastName:", lastName.toLowerCase()); // Output: Lowercase
 let lastNameArray = lastName.split('');
 console.log("lastName split into an array:", lastNameArray); // Output: lastName split into an array: [ 'P', 'a', 'n', 'd', 'e', 'y' ]
 
-// --------------------------------------------
+// -----------------------------------------------------------------------------------------------------------------
 
 /* TYPE CONVERSION */
 
