@@ -55,4 +55,16 @@ console.log(10 == 10);
 console.log(10 != 10);
 
 // --------------------------------------------
+/* STRINGS */
+
+let firstName = "Vishal";
+let lastName = "Pandey";
+let fullName = firstName + lastName;
+console.log(`Name: ${fullName}`);
+
+// STRING CONCATENATION
+let fullName_Concatenated1 = firstName + " " + lastName;
+let fullName_Concatenated2 = firstName.concat(lastName);
+console.log(`Full Name Concatenation 1: ${fullName_Concatenated1}`);
+console.log(`Full Name Concatenation 2: ${fullName_Concatenated2}`);
 
