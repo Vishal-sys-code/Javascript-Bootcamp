@@ -59,8 +59,8 @@ console.log(10 != 10);
 
 let firstName = "Vishal";
 let lastName = "Pandey";
-let fullName = firstName + lastName;
-console.log(`Name: ${fullName}`);
+// let fullName = firstName + lastName;
+// console.log(`Name: ${fullName}`);
 
 // STRING CONCATENATION
 let fullName_Concatenated1 = firstName + " " + lastName;
@@ -68,3 +68,30 @@ let fullName_Concatenated2 = firstName.concat(lastName);
 console.log(`Full Name Concatenation 1: ${fullName_Concatenated1}`);
 console.log(`Full Name Concatenation 2: ${fullName_Concatenated2}`);
 
+/* STRING METHODS */
+
+// Concatenation
+let fullName = firstName.concat(" ", lastName);
+console.log("Full Name:", fullName); // Output: Full Name: Vishal Pandey
+
+// Length
+console.log("Length of firstName:", firstName.length); // Output: Length of firstName: 6
+
+// indexOf
+console.log("Index of 'h' in firstName:", firstName.indexOf('h')); // Output: Index of 'h' in firstName: 2
+
+// charAt
+console.log("Character at index 3 in lastName:", lastName.charAt(3)); // Output: Character at index 3 in lastName: d
+
+// slice
+console.log("Substring from index 2 to 5 in lastName:", lastName.slice(2, 5)); // Output: Substring from index 2 to 5 in lastName: nde
+
+// toUpperCase
+console.log("Uppercase firstName:", firstName.toUpperCase()); // Output: Uppercase firstName: VISHAL
+
+// toLowerCase
+console.log("Lowercase lastName:", lastName.toLowerCase()); // Output: Lowercase lastName: pandey
+
+// split
+let lastNameArray = lastName.split('');
+console.log("lastName split into an array:", lastNameArray); // Output: lastName split into an array: [ 'P', 'a', 'n', 'd', 'e', 'y' ]
