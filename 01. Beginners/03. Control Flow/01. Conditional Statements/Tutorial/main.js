@@ -15,3 +15,19 @@ else if(b > a){
 else{
     console.log(`${a} is equal to ${b}`);
 }
+
+// -----------------------------------------------------------------------------------
+
+let time = 15;
+let greeting;
+if(time < 10){
+    greeting = "Good Morning!";
+}
+else if(time > 15){
+    greeting = "Good Evening!";
+}
+else{
+    greeting = "It's late to greet, Byee!";
+}
+
+// -----------------------------------------------------------------------------------
