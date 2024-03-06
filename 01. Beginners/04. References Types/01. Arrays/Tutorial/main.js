@@ -27,4 +27,20 @@ const numberArray = [2, 4, 6, 8];
 /* ARRAY OF STRINGS */
 const stringArray = ["eat", "sleep", "repeat"];
 
-/* ARRAY */
+/* ARRAY WITH MIXED TYPES */
+const newData = [
+    {task1: "exercise"},
+    [1, 2, 3],
+    function hello(){
+        console.log(`Hello`);
+    },
+];
+
+// ----------------------------------------------------------------------------
+
+/* ACCESSING THE ITEMS */
+const myArray = ["m", "e", "o", "w"];
+console.log(myArray[0]); // FIRST ELEMENT
+console.log(myArray[1]); // SECOND ELEMENT
+
+// ----------------------------------------------------------------------------
