@@ -1,0 +1,1 @@
+* Create array name (favSingers) Store 3 favorite singers. Log the first singer in that array. Create array name (favNumbers) & store 4 fav Numbers. Create array name (mixedArr) store ["string", ["otherarray"], 123, true]. Now Access each item in that array by using [] notation.
