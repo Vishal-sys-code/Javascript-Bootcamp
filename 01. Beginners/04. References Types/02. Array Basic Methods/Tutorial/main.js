@@ -29,3 +29,20 @@ let totalFruits = fruits.concat(moreFruits);
 */
 
 console.log(fruits);
+
+/*
+join() -> creates a string from the array
+reverse() -> reverse an array
+slice() -> copy portion of an array
+sort() -> sorts an array
+*/
+
+let programmingLanguages = ["JavaScript", "GoLang", "Python", "Php"];
+let numbers = [1,2,3,4,5];
+
+console.log(programmingLanguages);
+console.log(programmingLanguages.includes("GoLang"));
+console.log(programmingLanguages.join("-"));
+console.log(programmingLanguages.reverse());
+console.log(programmingLanguages.slice(0,3));
+console.log(programmingLanguages.sort());
